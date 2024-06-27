@@ -13,3 +13,40 @@
  *= require_tree .
  *= require_self
  */
+
+h1 {
+  padding: 20px;
+  text-align: left;
+}
+
+a {
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.callout {
+  padding: 20px;
+  margin-left: 20px;
+  border: 0px solid #c6c6c6;
+  border-left-width: 5px;
+  border-radius: 3px;
+}
+
+.callout-b {
+  margin: 20px;
+  padding: 20px;
+  border: 0px solid #c6c6c6;
+  border-left-width: 5px;
+  border-radius: 3px;
+  font-weight: bold;
+  background-color: rgb(255, 255, 230);
+}
+
+.italic {
+  font-style: italic;
+  font-weight: normal;
+}
+
+br {
+  font-style: italic;
+}
